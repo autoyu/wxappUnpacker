@@ -4,13 +4,13 @@ install_dependency()
 {
 echo "1. install dependency"
 
-sudo npm install esprima -g
-sudo npm install css-tree -g
-sudo npm install cssbeautify -g
-sudo npm install vm2 -g
-sudo npm install uglify-es -g
-sudo npm install js-beautify -g
-sudo npm install escodegen -g
+sudo npm install esprima -s
+sudo npm install css-tree -s
+sudo npm install cssbeautify -s
+sudo npm install vm2 -s
+sudo npm install uglify-es -s
+sudo npm install js-beautify -s
+sudo npm install escodegen -s
 
 echo "2. npm list"
 npm list esprima
